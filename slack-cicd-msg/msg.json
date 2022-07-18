@@ -1,0 +1,53 @@
+{
+    "channel": "${CHANNEL_ID}",
+    "username": "${USERNAME}",
+    "icon_emoji": "${ICON_EMOJI}",
+    "attachments": [
+        {
+            "color": "${COLOR}",
+            "fields": [
+                {
+                    "title": "Message",
+                    "value": "${MESSAGE}",
+                    "short": false
+                },
+                {
+                    "title": "Repository",
+                    "value": "${REPOSITORY}",
+                    "short": false
+                },
+                {
+                    "title": "Event",
+                    "value": "${EVENT}",
+                    "short": true
+                },
+                {
+                    "title": "Tag",
+                    "value": "${TAG}",
+                    "short": true
+                },
+                {
+                    "title": "Branch",
+                    "value": "${BRANCH}",
+                    "short": true
+                },
+                {
+                    "title": "Ref",
+                    "value": "${REF}",
+                    "short": true
+                },
+                {
+                    "title": "Commit",
+                    "value": "${COMMIT}",
+                    "short": true
+                },
+                {
+                    "title": "Author",
+                    "value": "${AUTHOR}",
+                    "short": true
+                }
+            ],
+            "footer": "${FOOTER}"
+        }
+    ]
+}
