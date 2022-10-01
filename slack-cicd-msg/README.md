@@ -40,4 +40,4 @@ https://hub.docker.com/repository/docker/heumsi/slack-cicd-msg/general
 
 If you want to know `Dockerfile`, Please find it in following repository.
 
-https://github.com/heumsi/Dockerfiles/slack-cicd-msg
+https://github.com/heumsi/Dockerfiles/tree/main/slack-cicd-msg
